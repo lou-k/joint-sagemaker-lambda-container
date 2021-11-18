@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+gluoncv = "==0.10.1.post0"
+mxnet = "==1.8.0post0"
+flask = "==2.0.1"
+
+[dev-packages]
+autopep8 = "*"
+ipykernel = "*"
+sagemaker = "*"
+jupyter = "*"
+
+[requires]
+python_version = "3.7"
